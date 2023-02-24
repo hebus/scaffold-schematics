@@ -9,6 +9,9 @@ To test locally, install `@angular-devkit/schematics-cli` globally and use the `
 Check the documentation with
 ```bash
 schematics --help
+
+# dry-run mode
+schematics .:scaffold-schematics
 ```
 
 ### Unit Testing
@@ -25,4 +28,3 @@ npm publish
 ```
 
 That's it!
- 
